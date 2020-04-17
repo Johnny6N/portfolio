@@ -19,7 +19,7 @@ if (x.style.display === "none") {
 
   <a class="nav-link btn btn-outline-primary" href="#blogs">About Me</a>&nbsp
   <a class="nav-link btn btn-outline-primary" href="#projects">Projects</a>&nbsp
-  <a class="nav-link btn btn-outline-primary" href="#resume">Resume</a>&nbsp
+  <a class="nav-link btn btn-outline-primary" href="#resumeButton">Resume</a>&nbsp
   <a class="nav-link btn btn-outline-primary" href="https://www.linkedin.com/in/johnnynichol" target="_blank">LinkedIn</a>
 </nav>
 <div>
@@ -118,13 +118,13 @@ if (x.style.display === "none") {
 </div>
 
 <br/><br/>
-<div class="text-center">
-  <a id="resume" href="#resume" onclick="toggleResume()" class="btn btn-success">Click to show resume</a>
+<div id="resumeButton" class="text-center">
+  <a href="#resume" onclick="toggleResume()" class="btn btn-success">Click to show resume</a>
 </div>
 <br/>
-  <div style="display: none;" class="embed-responsive embed-responsive-16by9">
+  <div id="resume" style="display: none;" class="embed-responsive embed-responsive-16by9">
 
-  <iframe src="./Johnny_Nichol_Resume.pdf" width="100%" height="100%">
+  <iframe src="/Johnny_Nichol_Resume.pdf" width="100%" height="100%">
   This browser does not support PDFs. Please download the PDF to view it:
   <a href="./Johnny_Nichol_Resume.pdf">Download PDF</a></iframe>
 </div>
