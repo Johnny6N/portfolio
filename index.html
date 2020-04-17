@@ -2,66 +2,147 @@
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
-  <title>Hire this guy</title>
+  <title>Hire this guy!</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script type="text/javascript">
+  function toggleResume() {
+var x = document.getElementById("resume");
+if (x.style.display === "none") {
+  x.style.display = "block";
+} else {
+  x.style.display = "none";
+}
+}
+  </script>
 </head>
-<body>
-  <nav class='nav justify-content-end'>
+<nav class='nav justify-content-end'>
 
-    <a class="nav-link btn btn-outline-primary" href="#">About Me</a>&nbsp
-    <a class="nav-link btn btn-outline-primary" href="#">Projects</a>&nbsp
-    <a class="nav-link btn btn-outline-primary" href="#">Resume</a>&nbsp
-    <a class="nav-link btn btn-outline-primary" href="#">LinkedIn</a>
-  </nav>
-  <div>
-    <img src="/logo.png" alt="">
-  </div>
-  <div class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="/portfolio/me.jpg" class="d-block w-100" alt="First Slide">
-        <div class="carousel-caption d-none d-md-block">
-          <div class="p-3 mb-2 bg-dark text-white rounded-pill">
-        <h5>The right man for the job</h5>
-        <p>Look at this guy. He knows what he's doing.</p>
-        </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="/portfolio/meLookingThroughTree.jpg" class="d-block w-100" alt="Slide 2">
-        <div class="carousel-caption d-none d-md-block">
-          <div class="p-3 mb-2 bg-dark text-white rounded-pill">
-        <h5 >This guy can see through any problem.</h5>
-        <p>And fix it.</p>
-        </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="/portfolio/lunaAndMe.jpg" class="d-block w-100" alt="Slide 3">
-        <div class="carousel-caption d-none d-md-block">
-        <h5>A tiger could land on this guy...</h5>
-        <p>...and he just laughs.</p>
+  <a class="nav-link btn btn-outline-primary" href="#blogs">About Me</a>&nbsp
+  <a class="nav-link btn btn-outline-primary" href="#projects">Projects</a>&nbsp
+  <a class="nav-link btn btn-outline-primary" href="#resume">Resume</a>&nbsp
+  <a class="nav-link btn btn-outline-primary" href="www.linkedin.com/in/johnnynichol
+">LinkedIn</a>
+</nav>
+<div>
+  <img src="/logo.png" alt="">
+</div>
+<div class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/me.jpg" class="d-block w-100" alt="First Slide">
+      <div class="carousel-caption d-none d-md-block">
+        <div class="p-3 mb-2 bg-dark text-white rounded-pill">
+          <h5>The right man for the job</h5>
+          <p>Look at this guy. He knows what he's doing.</p>
         </div>
       </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
+    <div class="carousel-item">
+      <img src="/meLookingThroughTree.jpg" class="d-block w-100" alt="Slide 2">
+      <div class="carousel-caption d-none d-md-block">
+        <div class="p-3 mb-2 bg-dark text-white rounded-pill">
+          <h5 >This guy can see through any problem.</h5>
+          <p>And fix it.</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/lunaAndMe.jpg" class="d-block w-100" alt="Slide 3">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>A tiger could land on this guy...</h5>
+        <p>...and he just laughs.</p>
+      </div>
+    </div>
   </div>
-  <footer>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<body>
+  <br/><br/>
+  <div class="p-3 mb-2 bg-dark text-white text-center">
+<a id="projects"><h1>Projects</h1></a>  </div>
+
+  <div class="card-deck">
+    <div class="card shadow p-3 mb-5 bg-white rounded">
+      <img src="/DnDScreenshot.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">D&D Character Creator</h5>
+        <p class="card-text">This was my first project for General Assembly, an assignment using jQuery, HTML, and CSS, requesting data from an API using AJAX.</p>
+      </div>
+      <div class="card-footer">
+        <a href="https://johnny6n.github.io/" class="btn btn-primary">Go To App</a>
+      </div>
+    </div>
+    <div class="card shadow p-3 mb-5 bg-white rounded">
+      <img src="RisingLightScreenshot.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Rising Light Workshops</h5>
+        <p class="card-text">This is an app I made for a nonprofit org., Rising Light. They provide free workshops at events, and stated a need for attendees to keep track of what workshops are being offered, get info, and more.</p>
+      </div>
+      <div class="card-footer">
+        <a href="https://risinglightapp.herokuapp.com/" class="btn btn-primary">Go To App</a>
+      </div>
+    </div>
+    <div class="card shadow p-3 mb-5 bg-white rounded">
+      <img src="Perennial.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">App for Assisted Living Facilities</h5>
+        <p class="card-text">This is a mock-up we did for a group project at General Assembly, using a MERN stack. The aim of the app is to provide information about various Assisted Living Facilities for senior citizens and their caregivers.</p>
+      </div>
+      <div class="card-footer">
+        <a href="https://perennial-portal.herokuapp.com/" class="btn btn-primary">Go To App</a>
+      </div>
+    </div>
+  </div>
+<br/><br/>
+
+<div class="p-3 mb-2 bg-dark text-white text-center">
+<a id="blogs"><h1>About Me</h1></a>  </div>
+  <div class="card text-white bg-secondary mb-3" style="width: 30rem;">
+  <img src="ship.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">And all I ask is a tall ship and a star to steer her by…</h5>
+    <p class="card-text">A young boy gazes in bewilderment at a moonless night sky that somehow seems more light than dark. From one horizon to another, the countless shimmering points continue their eternal dance across the night sky, and the boy stood in awe, knowing that these were...</p>
+    <a href="https://medium.com/@jnichol99/and-all-i-ask-is-a-tall-ship-and-a-star-to-steer-her-by-c94d3302cb8" class="btn btn-primary">Read this, and more of my blogs here!</a>
+  </div>
+</div>
+
+<br/><br/>
+<div class="text-center">
+  <a href="#resume" onclick="toggleResume()" class="btn btn-success">Click to show resume</a>
+</div>
+<br/>
+  <div id="resume" style="display: none;" class="embed-responsive embed-responsive-16by9">
+
+  <iframe src="/Johnny_Nichol_Resume.pdf" width="100%" height="100%">
+  This browser does not support PDFs. Please download the PDF to view it:
+  <a href="/Johnny_Nichol_Resume.pdf">Download PDF</a></iframe>
+</div>
+</div>
+<br/>
+  <footer class="p-3 mb-2 bg-dark text-white text-center">
+    <h1>Thanks for visiting!</h1>
   </footer>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
+
+
+<!-- img src="/portfolio/lunaAndMe.jpg" -->
+<!-- link = https://johnny6n.github.io/
+https://risinglightapp.herokuapp.com/shops
+https://perennial-portal.herokuapp.com/
+-->
